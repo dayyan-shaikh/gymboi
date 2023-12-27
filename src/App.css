@@ -1,38 +1,78 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+body {
+    background: url(img1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: relative;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: "DM Serif Display", serif;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  nav {
+    width: 100%;
+    height: 100px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
-  to {
-    transform: rotate(360deg);
+  .logo {
+    font-size: 3em;
+    color: rgb(224, 53, 53);
+    position: relative;
+    right: 28%;
   }
-}
+  .navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 20px 20px;
+    font-size: 20px;
+    position: relative;
+  }
+  .navbar a::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    border-bottom: 2px solid rgb(224, 53, 53);
+    transition: 0.4s linear;
+  }
+
+  .navbar a:hover:before {
+    width: 100%;
+  }
+  section {
+    max-width: 650px;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+  }
+  .h-txt p {
+    font-size: 1rem;
+  }
+  h1 span {
+    color: rgb(224, 53, 53);
+  }
+  .h-txt h1 {
+    font-size: 2.8em;
+  }
+
+  .h-txt a {
+    text-decoration: none;
+    color: white;
+    padding: 8px 20px;
+    font-size: 18px;
+    border-radius: 2px;
+    background: rgb(224, 53, 53);
+    transition: 0.4s;
+  }
+  .h-txt a:hover {
+    background: transparent;
+    border: 2px solid rgb(224, 53, 53);
+  }
