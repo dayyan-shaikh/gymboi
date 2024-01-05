@@ -6,11 +6,23 @@ import imgg3 from './images/img3.svg';
 const Features = () => {
   return (
     <>
-    <div className='image-grid '>
+    <div className='container image-grid'>
+    <div>
      <img src={imgg1} alt="img1" />
-     <img src={imgg2} alt="img1" />
-     <img src={imgg3} alt="img1" />
-     </div>
+     <h3>Weightlifting</h3>
+     <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+    </div>
+    <div>
+     <img src={imgg2} alt="img2" />
+     <h3>SpecificMuscle</h3>
+     <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p> 
+    </div>
+    <div>
+    <img src={imgg3} alt="img3" />
+     <h3>CardioMuscle</h3>
+     <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+    </div>
+    </div>
     </>
   )
 }
