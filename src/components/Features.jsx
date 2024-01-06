@@ -2,6 +2,7 @@ import React from 'react';
 import imgg1 from './images/img1.svg'; 
 import imgg2 from './images/img2.svg'; 
 import imgg3 from './images/img3.svg'; 
+import imgg4 from './images/img4.svg'; 
 
 const Features = () => {
   return (
@@ -20,6 +21,11 @@ const Features = () => {
     <div>
     <img src={imgg3} alt="img3" />
      <h3>CardioMuscle</h3>
+     <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+    </div>
+    <div>
+    <img src={imgg4} alt="img3" />
+     <h3>Treadmill</h3>
      <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
     </div>
     </div>
