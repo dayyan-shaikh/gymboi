@@ -15,19 +15,19 @@ const Contact = () => {
       </div>
       <div className='footer grid'>
         <div className='location'>
-        Location <br /> <a href="#"><i class="fa-solid fa-location-dot"></i></a>
+        Location <br /> <a href="#"><i class=" fa-2x fa-solid fa-location-dot"></i></a>
         <p>Krushna marriage hall, <br /> nalimbi road, <br /> Ambarnath(W)</p>
         </div>
         <div className='phone'>
-        Phone <br /> <a href="#"><i class="fa-solid fa-phone"></i></a>
-        <p>9730004278</p>
-        <p>9730004278</p>
+        Phone <br /> <a href="#"><i class="fa-2x fa-solid fa-phone"></i></a>
+        <p>+91 9730004278</p>
+        <p>+91 9730004278</p>
         </div>
         <div className='social'>
         Social Media <br />
-        <a href="https://www.instagram.com/dayyan__shk/"><i class="fa-brands fa-instagram"></i><br /> </a>
-        <a href="https://www.facebook.com/profile.php?id=100006539163202"><i class="fa-brands fa-facebook"></i><br /></a>
-        <a href="https://www.linkedin.com/in/dayyan-shaikh/"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://www.instagram.com/dayyan__shk/"><i class="fa-2x fa-brands fa-instagram"></i></a>
+        <a href="https://www.facebook.com/profile.php?id=100006539163202"><i class="fa-2x fa-brands fa-facebook"></i></a>
+        <a href="https://www.linkedin.com/in/dayyan-shaikh/"><i class="fa-2x fa-brands fa-linkedin"></i></a>
         </div>
       </div>
     </footer>

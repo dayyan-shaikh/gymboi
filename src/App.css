@@ -28,13 +28,19 @@ body {
     align-items: center;
   }
   .logo {
-    font-size: 2.4em;
-    color: rgb(224, 53, 53);
+    font-size: 2em;
+    color: orange;
     position: relative;
     right: 30%;
     top: 30px;
   }
 
+  .f{
+    color: #e4e3e3;
+  }
+  .c{
+    color:green;
+  }
   .logo img{
     width: 85px;
     height: 85px;
@@ -161,6 +167,7 @@ form button{
   border-radius: 10px;
 }
 
+/* Footer */
 .footer{
   background: #fff;
   color: #000;
@@ -177,6 +184,13 @@ form button{
   text-align: center;
 }
 
-.footer i{
-  width: 100px;
+.location i{
+  margin: 5px 0; 
+}
+.phone i{
+  margin: 5px 0; 
+
+}  
+.social i{
+  margin: 50px 25px; 
 } 

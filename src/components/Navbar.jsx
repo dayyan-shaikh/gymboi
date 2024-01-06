@@ -9,7 +9,7 @@ const Navbar = () => {
       <nav id="Navbar">
         <div className="logo">
           <img src={imgg4} alt="img" /><br />
-          <i><b>BFC</b></i>
+          <i><b>B<span className='f'>F</span><span className='c'>C</span></b></i>
         </div>
         <div className="navbar">
           <a href="#">Home</a>
