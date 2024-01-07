@@ -6,6 +6,9 @@ body {
     padding: 0;
     color: white;
   }
+  body::-webkit-scrollbar{
+    background-color: transparent;
+  }
   .showcase{
     background: url(bg.png);
     background-size: cover;
@@ -175,7 +178,6 @@ form button{
 
 .grid{
   display: grid;
-  grid-gap: 15%;
   grid-template-columns: repeat(3,1fr);
   text-align: center;
 }
